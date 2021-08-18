@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: $yelllow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    width: 50%;
+  }
+  a {
+    outline: none;
+    text-decoration: none;
+    color: #c0392b;
+  }
+}
+
+li {
+  list-style-type: none;
+}

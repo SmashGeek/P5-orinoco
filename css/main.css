@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #DACB6E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  width: 50%;
+}
+
+header a {
+  outline: none;
+  text-decoration: none;
+  color: #c0392b;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "belligerent_madnessregular";
+  font-size: 5vh;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+body {
+  background-color: #fefbe6;
+}
+
+#product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 2% 2% 2%;
+  border: #c0392b solid 3px;
+  border-radius: 10px;
+  width: 22%;
+  height: 60vh;
+  background-color: #dca382;
+}
+
+#product-card p {
+  text-align: justify;
+  margin: 6%;
+}
+
+#product-card h2 {
+  font-family: "belligerent_madnessregular";
+}
+
+.img_appareil {
+  width: 80%;
+  height: 35%;
+  margin-bottom: 15%;
+  border: #c0392b solid 2px;
+  border-radius: 10px;
+}
+
+#cameras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5%;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #c0392b;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#cam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  text-align: center;
+}
+
+#produit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2% 0 2% 0;
+  margin: 0 10% 2% 10%;
+  border: #c0392b solid 2px;
+  border-radius: 10px;
+  background-color: #dca382;
+}
+
+.img_detail {
+  width: 50%;
+  border: #c0392b solid 2px;
+  border-radius: 10px;
+  margin: 0% 2% 2% 2%;
+}
+
+.btn-product {
+  background-color: #c0392b;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 2% 2% 0 2%;
+}
+
+/* Affichage panier*/
+#title-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#title-cart p {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#user-cart {
+  margin: 0 0 5% 0;
+}
+
+.product-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-cart p {
+  width: 10%;
+  text-align: center;
+  padding-bottom: 1%;
+  border-bottom: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* affichage formulaire validation de commande*/
+.wrapper {
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+}
+
+#validate {
+  background-color: #c0392b;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.order-id {
+  font-weight: bold;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.confirmation {
+  margin-bottom: 15%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #cameras {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 40%;
+  }
+  #product-card {
+    width: 75%;
+    height: 45vh;
+  }
+  #product-card p {
+    font-size: 1.5vh;
+  }
+  #product-card h2 {
+    font-size: 2vh;
+  }
+  .pName {
+    font-size: 2vh;
+  }
+  #produit {
+    font-size: 1.5vh;
+    height: 35vh;
+  }
+  #produit .btn-product {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #cameras {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 40%;
+  }
+  #product-card {
+    width: 75%;
+    height: 65vh;
+  }
+  #product-card p {
+    font-size: 1.8vh;
+  }
+  #product-card h2 {
+    font-size: 2.5vh;
+  }
+}
+
+.footer {
+  background-color: #dacb6e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vh;
+}
+
+.footer a {
+  font-family: "belligerent_madnessregular";
+  text-decoration: none;
+  color: #c0392b;
+  font-size: 3vh;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: 'belligerent_madnessregular';
+  src: url("/font/belligerent-webfont.woff2") format("woff2"), url("/font/belligerent-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=main.css.map */

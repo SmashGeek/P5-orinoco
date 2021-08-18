@@ -1,0 +1,30 @@
+.footer {
+  background-color: $yelllow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+
+  a {
+    font-family: "belligerent_madnessregular";
+    text-decoration: none;
+    color: #c0392b;
+    font-size: 3vh;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

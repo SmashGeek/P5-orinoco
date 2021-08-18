@@ -1,0 +1,214 @@
+h1 {
+  font-family: "belligerent_madnessregular";
+  font-size: 5vh;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+body {
+  background-color: #fefbe6;
+}
+
+#product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2% 2% 2%;
+  border: #c0392b solid 3px;
+  border-radius: 10px;
+  width: 22%;
+  height: 60vh;
+  background-color: #dca382;
+  p {
+    text-align: justify;
+    margin: 6%;
+  }
+
+  h2 {
+    font-family: "belligerent_madnessregular";
+  }
+}
+
+.img_appareil {
+  width: 80%;
+  height: 35%;
+  margin-bottom: 15%;
+  border: #c0392b solid 2px;
+  border-radius: 10px;
+}
+
+#cameras {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5%;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #c0392b;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+// page produit
+
+#cam {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+#produit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2% 0 2% 0;
+  margin: 0 10% 2% 10%;
+  border: #c0392b solid 2px;
+  border-radius: 10px;
+  background-color: #dca382;
+}
+
+.img_detail {
+  width: 50%;
+  border: #c0392b solid 2px;
+  border-radius: 10px;
+  margin: 0% 2% 2% 2%;
+}
+
+.btn-product {
+  background-color: #c0392b;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 2% 2% 0 2%;
+}
+
+/* Affichage panier*/
+#title-cart {
+  display: flex;
+  justify-content: center;
+
+  p {
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+#user-cart {
+  margin: 0 0 5% 0;
+}
+
+.product-cart {
+  display: flex;
+  justify-content: center;
+
+  p {
+    width: 10%;
+    text-align: center;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+  }
+}
+
+.text-center {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* affichage formulaire validation de commande*/
+.wrapper {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  margin-bottom: 2%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+#validate {
+  background-color: #c0392b;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.order-id {
+  font-weight: bold;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.confirmation {
+  margin-bottom: 15%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #cameras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40%;
+  }
+  #product-card {
+    width: 75%;
+    height: 45vh;
+
+    p {
+      font-size: 1.5vh;
+    }
+    h2 {
+      font-size: 2vh;
+    }
+  }
+  .pName {
+    font-size: 2vh;
+  }
+  #produit {
+    font-size: 1.5vh;
+    height: 35vh;
+
+    .btn-product {
+      margin-top: 10%;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #cameras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40%;
+  }
+  #product-card {
+    width: 75%;
+    height: 65vh;
+
+    p {
+      font-size: 1.8vh;
+    }
+    h2 {
+      font-size: 2.5vh;
+    }
+  }
+}
